@@ -1,0 +1,33 @@
+html,body *{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    box-sizing:border-box;
+    }
+   
+  .packages h2{
+      padding:5px;
+      text-align:left;
+      
+}
+ .packages button{
+       
+       padding:8px 45px;
+       border:none;
+       outline:none;
+       background-color: green;
+       color:white;
+       cursor:pointer;
+       border-radius:4px;
+       font-size:15px;
+       display:block;
+       margin:0 auto;
+}
+ .packages button:hover{
+     transform:scale(1.08);   
+}
+  @media screen and (max-width:768px){
+     .packages{
+          grid-template-columns:repeat(1,1fr);
+    }
+}
